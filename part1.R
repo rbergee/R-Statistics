@@ -1,7 +1,8 @@
 
 # Part I: Descriptive Statistics -----------------------------------------
 
-#load data
+#load libraries & data
+library(jmv)
 data(mtcars)
 
 ## Data Types ------------------------------------------------------------
