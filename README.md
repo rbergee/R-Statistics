@@ -1,7 +1,7 @@
 # R: Statistics 
 Instructor: Rebecca Bergee, PhD
 
-Last Updated: January 9, 2025
+Last Updated: March 3, 2025
 
 ---
 *Note: This workshop is designed to teach common statistical analyses in R/RStudio including frequency tables, descriptive statistics, chi-square, correlation, linear regression, t-tests and analysis of variance with post hoc tests. It is recommended that you have a working knowledge of R/RStudio as a prerequisiste to this workshop.*
@@ -120,4 +120,4 @@ head(mtcars, n=10)
 ***Note**: Do not print or open large data sets (\>1000 rows). Consider specifying the number of rows instead.*
 
 ---
-The next workshop will be held Feburary 20, 2025 at 10AM ET available to those registered as a student, faculty or staff member of the University of Tennessee, Knoxville.
+This information is for the workshop being held March 6, 2025 at 10AM ET available to those registered as a student, faculty or staff member of the University of Tennessee, Knoxville.
