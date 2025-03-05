@@ -29,23 +29,22 @@ t.test(weight~group, data=plant, var.equal=TRUE)
 wilcox.test(weight~group, data=plant)
 
 # create paired data
-data <- data.frame(ID = c(rep(1:20, 2)), 
-                   score = c(84 ,82, 78, 76, 92, 94, 90, 85, 71, 95,
-                             84, 97, 98, 80, 90, 88, 95, 90, 96, 89,
-                             84, 88, 88, 90, 92, 93, 91, 85, 80, 93,
-                             97, 100, 93, 91, 92, 89, 94, 83, 92, 95),
-                   group = c(rep('pre', 20), rep('post', 20)))
+data <- data.frame(ID = c(rep(1:20)),
+                   score1 = c(84 ,82, 78, 76, 92, 94, 90, 85, 71, 95,
+                              84, 97, 98, 80, 90, 88, 95, 90, 96, 89),
+                   score2 = c(84, 88, 88, 90, 92, 93, 91, 85, 80, 93,
+                              97, 100, 93, 91, 92, 89, 94, 83, 92, 95))
 
 # define differences & verify assumptions
-differences <- with(data, score[group=='post'] - score[group=='pre'])
-hist(differences)
+differences <- data$score1 - data$score2 
+hist(differences) 
 shapiro.test(differences)
 
 # perform paired t-Test
-t.test(score~group, data=data, paired=TRUE)
+t.test(data$score1, data$score2, paired = TRUE)
 
 # non-parametric option
-wilcox.test(score~group, data=data, paired=TRUE)
+wilcox.test(data$score1, data$score2, paired = TRUE)
 
 ## Comparing More Than Two Groups ---------------------------------------
 
