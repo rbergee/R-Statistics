@@ -1,7 +1,7 @@
 # R: Statistics 
 Instructor: Rebecca Bergee, PhD
 
-Last Updated: March 3, 2025
+Last Updated: March 5, 2025
 
 ---
 *Note: This workshop is designed to teach common statistical analyses in R/RStudio including frequency tables, descriptive statistics, chi-square, correlation, linear regression, t-tests and analysis of variance with post hoc tests. It is recommended that you have a working knowledge of R/RStudio as a prerequisiste to this workshop.*
