@@ -12,7 +12,7 @@ Last Updated: March 3, 2025
 
 If you plan to following along and use the workshop files on your local machine, follow these steps:
 
-1.  Install R from <http://www.r-project.org> and install RStudio from <http://www.rstudio.com>
+1.  Install R from <http://www.r-project.org> and install RStudio from <https://posit.co/download/rstudio-desktop/>
 
 2.  Download and save the workshop files in a single location on your machine
 
