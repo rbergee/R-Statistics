@@ -20,7 +20,7 @@ plant <- subset(PlantGrowth, group != 'trt2')
 hist(plant$weight)
 shapiro.test(plant$weight)
 leveneTest(weight ~ group, data=plant)
-boxplot(plant$weight, plant$group)
+boxplot(weight~group, data=plant)
 
 # perform t-Test
 t.test(weight~group, data=plant, var.equal=TRUE)
